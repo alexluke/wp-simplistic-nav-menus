@@ -25,7 +25,8 @@
 */
 
 function snm_nav_menu_args($args = array()) {
-  $args['container'] = 'nav';
+  if ($args['container'])
+    $args['container'] = 'nav';
   $args['container_class'] = $args['theme_location'];
   $args['menu_class'] = '';
   $args['items_wrap'] = '<ul>%3$s</ul>';
