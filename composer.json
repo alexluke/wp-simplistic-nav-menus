@@ -1,0 +1,15 @@
+{
+    "name": "alexluke/wp-simplistic-nav-menus",
+    "type": "wordpress-plugin",
+    "description": "Wordpress Simplistic Nav Menus",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Alex Luke",
+            "email": "alex@alexluke.me"
+        }
+    ]
+}
